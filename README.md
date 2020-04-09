@@ -59,7 +59,6 @@ ix. Refresh JWT token
     Request Type 	    : POST 
     Request Params 	    : refresh (token)
 
-
 ## Getting Started
 ---------
 
@@ -69,25 +68,6 @@ Run the following command inside photo_project directory to start the app locall
 python manage.py runserver 
 ```
 
-### Prerequisites
----------
-
-- Python 3.+
-- Django
-- Django Rest Framework
-- Django Filter
-- Django Simple JWT
-
-```
-pip install django
-
-pip install djangorestframework
-
-pip install django djangorestframework djangorestframework-simplejwt
-
-pip install django-filter
-```
-
 ### Create super user
 ---------
 
@@ -95,15 +75,6 @@ pip install django-filter
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
-```
-
-### Break down into end to end tests
----------
-
-Explain what these tests test and why
-
-```
-Give an example
 ```
 
 ## TODOs
