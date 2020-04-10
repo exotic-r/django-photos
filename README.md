@@ -16,7 +16,7 @@ i. Post a photo
 ii. Edit a photo captions
 
     Endpoint            : /photos/{id} 
-    Request Type 	    : PUT
+    Request Type 	    : PATCH
 
 iii. Delete a photo
 
@@ -38,7 +38,7 @@ v.  Sort photos by data
 
 vi. Filter photos by user
 
-    Endpoint            : /photos/?user={userid} 
+    Endpoint            : /photos/?author={userid} 
     Request Type 	    : GET 
   
 vii. Register user
